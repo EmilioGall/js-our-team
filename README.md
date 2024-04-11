@@ -30,12 +30,12 @@ Organizzare i singoli membri in card/schede. Se non vi sentite particolarmente c
 
 #### DATA COLLECTION
 
-- [x] Define constant for array of given objects. (teamArray)
+- [x] Define constant for array of given objects. (teamMemberArray)
 
 - [x] Define constant for div of cards element. (cardsDivElem)
 
 ### LOGICAL EXECUTION
 
-- **FOR** key *in* (teamArray)
+- **FOR** key *in* (teamMemberArray)
 
     - [x] Print on page.
