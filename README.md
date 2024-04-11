@@ -42,6 +42,6 @@ Organizzare i singoli membri in card/schede. Se non vi sentite particolarmente c
 
 ### LOGICAL EXECUTION
 
-- **FOR** key *in* (teamMemberArray)
+- **FOR** each object *in* the array. (teamMemberArray)
 
     - [x] Print on page.

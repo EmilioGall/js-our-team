@@ -3,50 +3,85 @@ const teamMemberArray = [
 
     {
 
-        name: "Wayne Barnett",
+        nameMember: "Wayne Barnett",
         companyRole: "Founder & CEO",
-        profileImage: ./img/wayne-barnett-founder-ceo.jpg,
+        profileImage: "./img/wayne-barnett-founder-ceo.jpg",
 
     },
 
     {
 
-        name: "Angela Caroll",
+        nameMember: "Angela Caroll",
         companyRole: "Chief Editor",
-        profileImage: ./img/angela-caroll-chief-editor.jpg,
+        profileImage: "./img/angela-caroll-chief-editor.jpg",
   
     },
 
     {
 
-        name: "Walter Gordon",
+        nameMember: "Walter Gordon",
         companyRole: "Office Manager",
-        profileImage: ./img/walter-gordon-office-manager.jpg,
+        profileImage: "./img/walter-gordon-office-manager.jpg",
   
     },
 
     {
 
-        name: "Angela Lopez",
+        nameMember: "Angela Lopez",
         companyRole: "Social Media Manager",
-        profileImage: ./img/angela-lopez-social-media-manager.jpg,
+        profileImage: "./img/angela-lopez-social-media-manager.jpg",
   
     },
 
     {
 
-        name: "Scott Estrada",
+        nameMember: "Scott Estrada",
         companyRole: "Developer",
-        profileImage: ./img/scott-estrada-developer.jpg,
+        profileImage: "./img/scott-estrada-developer.jpg",
   
     },
 
     {
 
-        name: "Barbara Ramos",
+        nameMember: "Barbara Ramos",
         companyRole: "Graphic Designer",
-        profileImage: ./img/barbara-ramos-graphic-designer.jpg,
+        profileImage: "./img/barbara-ramos-graphic-designer.jpg",
   
     },
 
 ];
+
+console.log("teamMemberArray", teamMemberArray, typeof teamMemberArray);
+
+// Define constant for div of cards element.
+const cardsDivElem = document.getElementById("cards-container");
+
+console.log("cardsDivElem", cardsDivElem, typeof cardsDivElem);
+
+
+// Define constant for div of cards element.
+
+for (let i=0; i < teamMemberArray.length; i++) {
+
+    console.log(i, teamMemberArray[i], typeof teamMemberArray[i]);
+
+    cardsDivElem.innerHTML += `
+
+    <div class="col-4 p-3">
+    
+    <div class="card">
+
+    <img src="${teamMemberArray[i].profileImage}" class="card-img-top" alt="${teamMemberArray[i].nameMember} profile image">
+
+    <div class="card-body">
+
+      <h5 class="card-title">${teamMemberArray[i].nameMember}</h5>
+
+      <p class="card-text">${teamMemberArray[i].companyRole}</p>
+
+    </div>
+
+    </div>
+    `;
+
+};
