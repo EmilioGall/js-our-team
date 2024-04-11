@@ -3,20 +3,50 @@ const teamMemberArray = [
 
     {
 
-      name: "Wayne Barnett",
-      companyRole: "Founder & CEO",
-      profileImage: ./img/wayne-barnett-founder-ceo.jpg,
+        name: "Wayne Barnett",
+        companyRole: "Founder & CEO",
+        profileImage: ./img/wayne-barnett-founder-ceo.jpg,
 
     },
 
     {
-      name: "Classe 2",
-      studentsNumber: 30,
+
+        name: "Angela Caroll",
+        companyRole: "Chief Editor",
+        profileImage: ./img/angela-caroll-chief-editor.jpg,
+  
     },
 
     {
-      name: "Classe 3",
-      studentsNumber: 32,
+
+        name: "Walter Gordon",
+        companyRole: "Office Manager",
+        profileImage: ./img/walter-gordon-office-manager.jpg,
+  
+    },
+
+    {
+
+        name: "Angela Lopez",
+        companyRole: "Social Media Manager",
+        profileImage: ./img/angela-lopez-social-media-manager.jpg,
+  
+    },
+
+    {
+
+        name: "Scott Estrada",
+        companyRole: "Developer",
+        profileImage: ./img/scott-estrada-developer.jpg,
+  
+    },
+
+    {
+
+        name: "Barbara Ramos",
+        companyRole: "Graphic Designer",
+        profileImage: ./img/barbara-ramos-graphic-designer.jpg,
+  
     },
 
 ];
